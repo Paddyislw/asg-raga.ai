@@ -1,0 +1,75 @@
+:root {
+  /* backgrounds */
+  --color-bg-strong: #121419;
+  --color-bg-surface: #333333;
+  --color-bg-sub: #dadadc;
+  --color-bg-soft: #e2e2e3;
+  --color-bg-weak: #f2f2f2;
+  --color-bg-white: #ffffff;
+
+  /* text */
+  --color-text-strong: #141414;
+  --color-text-sub: #2a2a2a;
+  --color-text-soft: #8a8a8a;
+  --color-text-disabled: #dadadc;
+  --color-text-white: #ffffff;
+
+  /* feature / purple */
+  --color-feature-dark: #351a75;
+  --color-feature-base: #7d52f4;
+  --color-feature-light: #cac0ff;
+  --color-feature-lighter: #efebff;
+
+  /* information / blue */
+  --color-information-dark: #122368;
+  --color-information-base: #335cff;
+  --color-information-light: #c0d5ff;
+  --color-information-lighter: #ebf1ff;
+
+  /* success / green */
+  --color-success-dark: #0b4627;
+  --color-success-base: #1fc16b;
+  --color-success-light: #c2f5da;
+  --color-success-lighter: #e0faec;
+
+  /* warning / yellow */
+  --color-warning-dark: #624c18;
+  --color-warning-base: #f6b51e;
+  --color-warning-light: #ffecc0;
+  --color-warning-lighter: #fffaeb;
+
+  /* error / red */
+  --color-error-dark: #681219;
+  --color-error-base: #fb3748;
+  --color-error-light: #ffc0c5;
+  --color-error-lighter: #ffebec;
+
+  /* verified / cyan */
+  --color-verified-dark: #124b68;
+  --color-verified-base: #47c2ff;
+  --color-verified-light: #c0eaff;
+  --color-verified-lighter: #ebf8ff;
+
+  /* stable / teal */
+  --color-stable-dark: #0b463e;
+  --color-stable-base: #22d3bb;
+  --color-stable-light: #c2f5ee;
+  --color-stable-lighter: #e4fbf8;
+
+  /* highlighted / pink */
+  --color-highlighted-dark: #68123d;
+  --color-highlighted-base: #fb4ba3;
+  --color-highlighted-light: #ffc0df;
+  --color-highlighted-lighter: #ffebf4;
+
+  /* card shadow */
+  --shadow-card: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 0 4px 0 rgba(0, 0, 0, 0.04);
+
+  /* fonts */
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'IBM Plex Serif', Georgia, serif;
+
+  /* sidebar width */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 72px;
+}

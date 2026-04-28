@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  /* backgrounds */
+  --color-background-strong: var(--color-bg-strong);
+  --color-background-surface: var(--color-bg-surface);
+  --color-background-sub: var(--color-bg-sub);
+  --color-background-soft: var(--color-bg-soft);
+  --color-background-weak: var(--color-bg-weak);
+  --color-background-white: var(--color-bg-white);
+
+  /* text */
+  --color-strong: var(--color-text-strong);
+  --color-sub: var(--color-text-sub);
+  --color-soft: var(--color-text-soft);
+  --color-disabled: var(--color-text-disabled);
+
+  /* feature */
+  --color-feature-dark: var(--color-feature-dark);
+  --color-feature-base: var(--color-feature-base);
+  --color-feature-light: var(--color-feature-light);
+  --color-feature-lighter: var(--color-feature-lighter);
+
+  /* information */
+  --color-information-dark: var(--color-information-dark);
+  --color-information-base: var(--color-information-base);
+  --color-information-light: var(--color-information-light);
+  --color-information-lighter: var(--color-information-lighter);
+
+  /* success */
+  --color-success-dark: var(--color-success-dark);
+  --color-success-base: var(--color-success-base);
+  --color-success-light: var(--color-success-light);
+  --color-success-lighter: var(--color-success-lighter);
+
+  /* warning */
+  --color-warning-dark: var(--color-warning-dark);
+  --color-warning-base: var(--color-warning-base);
+  --color-warning-light: var(--color-warning-light);
+  --color-warning-lighter: var(--color-warning-lighter);
+
+  /* error */
+  --color-error-dark: var(--color-error-dark);
+  --color-error-base: var(--color-error-base);
+  --color-error-light: var(--color-error-light);
+  --color-error-lighter: var(--color-error-lighter);
+
+  /* verified */
+  --color-verified-dark: var(--color-verified-dark);
+  --color-verified-base: var(--color-verified-base);
+  --color-verified-light: var(--color-verified-light);
+  --color-verified-lighter: var(--color-verified-lighter);
+
+  /* stable */
+  --color-stable-dark: var(--color-stable-dark);
+  --color-stable-base: var(--color-stable-base);
+  --color-stable-light: var(--color-stable-light);
+  --color-stable-lighter: var(--color-stable-lighter);
+
+  /* highlighted */
+  --color-highlighted-dark: var(--color-highlighted-dark);
+  --color-highlighted-base: var(--color-highlighted-base);
+  --color-highlighted-light: var(--color-highlighted-light);
+  --color-highlighted-lighter: var(--color-highlighted-lighter);
+
+  /* fonts */
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-ibm-plex-serif: 'IBM Plex Serif', Georgia, serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  color: var(--color-text-strong);
+  background: var(--color-bg-weak);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
